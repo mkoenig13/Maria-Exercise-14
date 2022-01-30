@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+    scroll-behavior: smooth;  
+}
+
+.menu{
+    background-color: #ff4a2a;
+    height: 150px;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menu2{
+    background-color: #ffdc15;
+    height: 150px;
+    border-bottom: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menu3{
+    background-color: #ff2626;
+    height: 150px;
+    border-bottom: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menu4{
+    background-color: yellowgreen;
+    height: 150px;
+    border-bottom: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menuitems{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    
+}
+
+.menuitems2 {
+    height: 90%;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: red;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+
+.menuitems3 {
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 10;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    flex-direction: column;
+}
+
+
+.menuitems4{
+    height: 90%;
+    flex-grow: 5;
+    flex-shrink: 5;
+    flex-basis: auto;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+.container{
+    height: 300px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid black;
+}
+
+
+
+.item{
+    height: 100%;
+    background-color: white;
+    min-width: 100px;
+}
+
+p{
+    color: red;
+    font-size: 64px;
+}
+
+
+.longscroll{
+    background-image: linear-gradient(red, yellow, blue);
+    height: 5000px;
+}
+
+h1{
+    color: orange;
+    font-size: 64px; 
+}
+
+h2{
+    color: purple;
+    font-size: 64px; 
+}
+
+
+.stretch{
+    height: 100%;
+    background-color: blue;
+    color:white;
+    margin-right: 20px;
+    font-size: 48px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-right: 0px;
+    
+    
+}
+
+.disappear{
+    height: 300px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid black;
+}
+
+.fade{
+    height: 600px;
+    width:900px;
+    flex-grow: 1;
+    flex-shrink: 4;
+    background-color: yellow;
+    font-size: 200px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    flex-direction: row;
+   
+}
+
+
+
+.color{
+    height: 300px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: green;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid black;
+
+}
+
+
+.redbox{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: red;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    
+}
+
+.notpurple{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    
+}
+
+
+.scroll{
+    height: 300px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid black;
+
+}
